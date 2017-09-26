@@ -1,0 +1,118 @@
+
+_^^^^^^^_
+
+*TinFoil*
+_^^^^^^^_
+
+Juego Is
+
+** La Ciudad (Mundo)
+
+"La Ciudad" es a la vez el mundo donde sucede la acción, como el gobierno de la ciudad. 
+
+
+*** Tiempo
+Hay dos tiempos, el de la ciudad y el del jugador. Ambos tiempos irán avanzando el la situación política en el juego.
+
+**** Tiempo del Jugador:
+Los diferentes eventos y acciones que raliza el jugador. Esto mueve los grandes cambios de politica bruscos de la Ciudad.
+
+**** Tiempo de la Ciudad
+Dia/Noche semanas, regulan las noticias y los cambis progresivos de la ciudad y las personas.
+
+
+*** Espacio físico
+Vista tipo pokemon, puede ser grande, he includo generada de manera precedural como Minecraft en un futuro y tener diferentes barrios. Consta de tiendas (libros, electrodomésticos, quioscos, comida, propiedad), servicios (escuelas, librerias, policia, bomberos, hospitales), gobierno (ayuntamiento, informacion, trámites), y sitios para vivir. Organizdos en calles. Lleno de cameras CCTV, detectores de wifi de mobiles, bla bla bla. 
+
+
+
+** Actores
+
+*** El jugador
+Mission: Encontrar su hermana, o no.
+Me parece gracioso que la creacion de personage sea hacerse un perfil en Centillion, pero que no se obligatorio, se pueda obiar, y entonces empiezas un poco mas facil.
+
+
+
+*** Hermana del jugador
+Objetivo del juego es encontrarla después de que haya desaparecido, es un trabajo detectivesco para encontrarla, preguntando a amigos, buscando en redes, siguiendo pistas. No tengo aun el motivo de su desaparición.
+
+
+*** Ayuntamiento
+Empieza como algo "benevolo" pasando leyes a favor de la vigilancia, tanto analogiaca (policia, camaras CCTV, pedir denuncias de peers ...) como digital (internet, gastos y compras, usos de servicios...). Al principio no iran coordenados pero lentamente se irán coordiando cada vez mas, y volviéndose mas y mas controladores. 
+
+
+**** Policia:
+El brazo ejecutivo del govierno, sus acciones dependen del Ayuntamiento
+
+
+*** Ciudadanos
+Diferentes personas que poblan la ciudad, transeuntes, dependientes..., Cada uno tiene diferentes grados de aprecio al resto de agentes. 
+
+
+*** Amigos del jugador
+Pareciod a La Ciudad, algunos de ellos pueden ser especiales. Entre ellos hay algunos que 
+
+
+*** EFF
+
+Organizacion pro-libertad de derechos, contra el estado de vigilancia. Principalemente no son malignos. (Para mi personalmente los buenos) Siendo neutrales, ambos grupos los pintan que son de los otros, por distintas razones, simplemente por no Azul/Rojo. Principales victimas de ellos.
+
+
+*** Grupos Rojo / Azul
+
+Ninguno de los dos son buenos intrinsecamente ni tampoco malos, simplemente son dos facciones enfrentadas, no hace falta entrar en politica y en esto hay que ser vagos. Piensalo como Derechas/Izquierdas Religion/Secular Nacionalismo/Globalismo bla bla bal.
+
+Son ambas extremistas y ejercen mucha presion sobre la ciudanadia. Lentamente amigos y los ciudadnos iran cojiendo lados en esto. Muy lentamente.
+
+Estos grupos se enfrentarán, y será la escusa del Ayuntamiento de aumentar la vigilancia
+
+
+*** Noticias
+Tres tipos de noticias, pro-azul, pro-rojo, neutral-pro-gobierno, todas van contra los otros. Y son casi siempre muy opinionadas. Si la neutral hace algo pro rojo, las proazul la critican y asi vamos.
+
+
+
+*** Corporacion Centillion
+Empresa tecnologica con ciertos valores pr-grobierno, (piensa google, amazon, microsoft, facebook), pero de manera escondida
+
+
+*** Compañia Pera
+
+Lo mismo que la anterior, pero se pintan a si mismo anti-gobierno, pero en realidad es como la otra. Simplemente es para dar una ilusion de eleccion.
+
+
+*** Tecnologia Libre
+
+Software libre, la verdadera eleccion, pero no se hablan de ellas en las noticias, o cuando se habla siempre es de manera negativa.
+
+
+** Sistama de VigiCon (Vigilancia y Control)
+
+Este sera impulsado por el ayuntamiento, y lentamente ira cojiendo mas y mas servicios y conenctandose mas. Hay muchos vectores para obtener informacion, y deoendiendo en quuien confies van a una entidad o otra. 
+
+*** Vectores de Información:
+- Ordenador --> Páginas visitadas --> gustos y ideologia y comunicaciones
+- Móbil --> Lo mismo, mas contancos y localizacion, conversaciones
+- Cámaras --> Posicion
+- Compras y uso de servicios --> gustos y localicacion
+
+Lo importante es que cada vector tiene diferentes maneras para funcionar, el mobil puede ser con el gps al principio, pero cuando lo apagas, empieza a seguirte con tus posiciones de wifi, y cuando lo metes en una bolsa de faraday, o lo gejas en casa, te seguiran con el wifi de tus amigos (identifican la voz) y cosas por el estilo.
+
+
+** Idea de implementacion
+
+Utilizar un mundo isometrico tipo pokemon, el sistema VigCon esta implementado entero, pero utilizamos Firewalls para capar los movimientos de informacion y los vamos levantando. El test del juego seria crear un mundo en el que los unicos actores son el Jugador, el Ayuntamiento y los Ciudadanos, muy reducido, y implementar los vectores de una manear sencilla.
+
+
+
+
+
+
+
+* Que te parece? Creo que una implementacion sencilla al principio y con un mapa Ascii tipo [[https://en.wikipedia.org/wiki/Dwarf_Fortress][Dwarf Frotress]] hasta que alguien se anime a dibujarlo. 
+
+
+
+Licencia: 
+#[[http://creativecommons.org/licenses/by-nc-sa/4.0/][CC-BY-NC-SA]] v4.0
